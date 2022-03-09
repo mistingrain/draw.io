@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T10:27:42.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="uw9bp-qZoB-zaeKB9EhF" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-09T03:41:02.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="ISoBngdImUUm24WvsLJr" version="16.6.6" type="github">
   <diagram id="EhRALEBXOWKKHzIE7AUR" name="Page-1">
     <mxGraphModel dx="4722" dy="5435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -640,7 +640,7 @@
         <mxCell id="p26FGYV_5L9APTkMhsIA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="p26FGYV_5L9APTkMhsIA-4" target="p26FGYV_5L9APTkMhsIA-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p26FGYV_5L9APTkMhsIA-4" value="选择不同的图表示学习方法&lt;br&gt;（node2vec，deepwalk，line）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="p26FGYV_5L9APTkMhsIA-4" value="选择图表示学习方法&lt;br&gt;（node2vec）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-210" y="2660" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p26FGYV_5L9APTkMhsIA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="p26FGYV_5L9APTkMhsIA-5" target="p26FGYV_5L9APTkMhsIA-7" edge="1">
@@ -649,19 +649,19 @@
         <mxCell id="p26FGYV_5L9APTkMhsIA-5" value="设置不同的参数&lt;br&gt;（d=128,r=10,l=80,k=10,&lt;br&gt;p=4,q=1）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="2660" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TDV571qA5V_ce3bzgq1k-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p26FGYV_5L9APTkMhsIA-7" target="TDV571qA5V_ce3bzgq1k-1">
+        <mxCell id="TDV571qA5V_ce3bzgq1k-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="p26FGYV_5L9APTkMhsIA-7" target="TDV571qA5V_ce3bzgq1k-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p26FGYV_5L9APTkMhsIA-7" value="生成基因特征矩阵" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="2760" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TDV571qA5V_ce3bzgq1k-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TDV571qA5V_ce3bzgq1k-1" target="TDV571qA5V_ce3bzgq1k-3">
+        <mxCell id="TDV571qA5V_ce3bzgq1k-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TDV571qA5V_ce3bzgq1k-1" target="TDV571qA5V_ce3bzgq1k-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TDV571qA5V_ce3bzgq1k-1" value="基因ID转换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TDV571qA5V_ce3bzgq1k-1" value="基因ID转换" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-210" y="2760" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TDV571qA5V_ce3bzgq1k-3" value="输出基因特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TDV571qA5V_ce3bzgq1k-3" value="输出基因特征" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-410" y="2760" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
