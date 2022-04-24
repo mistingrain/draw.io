@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T03:41:02.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="ISoBngdImUUm24WvsLJr" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-24T17:30:01.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="TXaFrwlXUeA1oIbxNjFy" version="17.0.0" type="github">
   <diagram id="EhRALEBXOWKKHzIE7AUR" name="Page-1">
     <mxGraphModel dx="4722" dy="5435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -663,6 +663,27 @@
         </mxCell>
         <mxCell id="TDV571qA5V_ce3bzgq1k-3" value="输出基因特征" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-410" y="2760" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VI_H-Z_v_2q--TnIWp9A-2" target="VI_H-Z_v_2q--TnIWp9A-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-2" value="178 Positive Gene （label is 1)&lt;br&gt;178 Negative Gene (label is 0)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="3160" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VI_H-Z_v_2q--TnIWp9A-4" target="VI_H-Z_v_2q--TnIWp9A-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-4" value="SVM训练(from sklearn import svm)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="3160" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VI_H-Z_v_2q--TnIWp9A-5" target="VI_H-Z_v_2q--TnIWp9A-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-5" value="设置不同的参数&lt;br&gt;（(kenerl 选择 RBF核&lt;br&gt;probability 选择 TRUE&lt;br&gt;gamma 选择 Auto)）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3160" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-10" value="5-fold cross validation&lt;br&gt;（from sklearn import metrics&lt;br&gt;from sklearn.model_selection import StratifiedKFold）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3290" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
