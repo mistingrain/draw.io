@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T17:30:01.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="TXaFrwlXUeA1oIbxNjFy" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-01T09:34:29.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="B53zg4tZMXY0ZrmgGtoM" version="18.1.3" type="github">
   <diagram id="EhRALEBXOWKKHzIE7AUR" name="Page-1">
-    <mxGraphModel dx="4722" dy="5435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="8049" dy="6835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -664,26 +664,74 @@
         <mxCell id="TDV571qA5V_ce3bzgq1k-3" value="输出基因特征" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-410" y="2760" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VI_H-Z_v_2q--TnIWp9A-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VI_H-Z_v_2q--TnIWp9A-2" target="VI_H-Z_v_2q--TnIWp9A-4">
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VI_H-Z_v_2q--TnIWp9A-2" target="VI_H-Z_v_2q--TnIWp9A-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VI_H-Z_v_2q--TnIWp9A-2" value="178 Positive Gene （label is 1)&lt;br&gt;178 Negative Gene (label is 0)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-2" value="178 Positive Gene （label is 1)&lt;br&gt;178 Negative Gene (label is 0)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-290" y="3160" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VI_H-Z_v_2q--TnIWp9A-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VI_H-Z_v_2q--TnIWp9A-4" target="VI_H-Z_v_2q--TnIWp9A-5">
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VI_H-Z_v_2q--TnIWp9A-4" target="VI_H-Z_v_2q--TnIWp9A-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VI_H-Z_v_2q--TnIWp9A-4" value="SVM训练(from sklearn import svm)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-4" value="SVM训练(from sklearn import svm)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-90" y="3160" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VI_H-Z_v_2q--TnIWp9A-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VI_H-Z_v_2q--TnIWp9A-5" target="VI_H-Z_v_2q--TnIWp9A-10">
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VI_H-Z_v_2q--TnIWp9A-5" target="VI_H-Z_v_2q--TnIWp9A-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VI_H-Z_v_2q--TnIWp9A-5" value="设置不同的参数&lt;br&gt;（(kenerl 选择 RBF核&lt;br&gt;probability 选择 TRUE&lt;br&gt;gamma 选择 Auto)）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-5" value="设置不同的参数&lt;br&gt;（(kenerl 选择 RBF核&lt;br&gt;probability 选择 TRUE&lt;br&gt;gamma 选择 Auto)）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="3160" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VI_H-Z_v_2q--TnIWp9A-10" value="5-fold cross validation&lt;br&gt;（from sklearn import metrics&lt;br&gt;from sklearn.model_selection import StratifiedKFold）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VI_H-Z_v_2q--TnIWp9A-10" value="5-fold cross validation&lt;br&gt;（from sklearn import metrics&lt;br&gt;from sklearn.model_selection import StratifiedKFold）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="3290" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HuZ2S1VmehqdU8-ZRgzR-2" target="HuZ2S1VmehqdU8-ZRgzR-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-2" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="295" width="550" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HuZ2S1VmehqdU8-ZRgzR-8" target="HuZ2S1VmehqdU8-ZRgzR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HuZ2S1VmehqdU8-ZRgzR-5" target="HuZ2S1VmehqdU8-ZRgzR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-5" value="提取基因特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-395" y="381" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HuZ2S1VmehqdU8-ZRgzR-7" target="HuZ2S1VmehqdU8-ZRgzR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-7" value="生物网络融合优化&lt;br&gt;构建多元生物网络" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="381" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-8" value="数据预处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-715" y="381" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HuZ2S1VmehqdU8-ZRgzR-10" target="HuZ2S1VmehqdU8-ZRgzR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-10" value="原始生物网络" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HuZ2S1VmehqdU8-ZRgzR-12" target="HuZ2S1VmehqdU8-ZRgzR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-12" value="筛选疾病基因" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-395" y="471" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HuZ2S1VmehqdU8-ZRgzR-14" target="HuZ2S1VmehqdU8-ZRgzR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-14" value="不同机器学习方法&lt;br&gt;进行训练" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="471" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-15" value="分类预测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-715" y="471" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuZ2S1VmehqdU8-ZRgzR-16" value="基因疾病预测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="669" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
